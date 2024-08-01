@@ -7,6 +7,11 @@ export interface Platform {
   name: string;
   slug: string;
   platforms: Platform[];
+  games_count?: number;
+  image_background?: string;
+  image?: string | null;
+  year_start?: number | null;
+  year_end?: number | null;
 }
 
 export interface Game {
